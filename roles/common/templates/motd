@@ -1,0 +1,7 @@
+----------------------------------------------
+            Seja bem vindo
+
+Hostname.: "{{ ansible_all_ipv4_addresses }}"
+Endereço IP.: "{{ ansible_fqdn }}"
+
+----------------------------------------------
