@@ -1,0 +1,2 @@
+[servidor]
+www     ansible_ssh_host=192.168.1.8 

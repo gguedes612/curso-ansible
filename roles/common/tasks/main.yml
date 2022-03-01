@@ -1,0 +1,6 @@
+---
+
+- name: Instalação de pacotes
+  apt: name={{ common_packages }} state=latest  
+
+...
