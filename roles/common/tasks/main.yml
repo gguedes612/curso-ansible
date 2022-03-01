@@ -1,6 +1,22 @@
 ---
 
+- name: Atualizando  o Sistema Operacional
+  apt:
+    name: "*"
+    state: latest
+    update_cache: yes
+  become: yes
+
 - name: Instalação de pacotes
-  apt: name={{ common_packages }} state=latest  
+  apt: 
+    name: ['net-tools', 'vim', 'gcc']
+    state: latest
+
+- name: Configurando Timezone
+  file:
+    src: /usr/share/zoneinfo/America/Sao_Paulo
+    dest: /etc/localtime
+    force: yes
+    state: link
 
 ...
