@@ -1,8 +1,0 @@
--i  =   inventario
--u  =   usuario
--k  =   senha
--K  =   solicita a elevação de privilegio
--b  =   executar a elevação de privilegio
--v  =   verbose
--m  =   define qual modulo que sera utilizado
--a  =   argumento do modulo

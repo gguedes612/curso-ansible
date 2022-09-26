@@ -1,4 +1,0 @@
-common_packages:
-  - python3
-  - vim
-  - gcc
